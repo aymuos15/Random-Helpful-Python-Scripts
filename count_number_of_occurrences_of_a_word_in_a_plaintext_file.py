@@ -45,6 +45,3 @@ for i in sorted_d:
 https://www.geeksforgeeks.org/python-count-occurrences-of-each-word-in-given-text-file/
 https://stackoverflow.com/questions/11228812/print-a-dict-sorted-by-values
 '''
-
-unique.counts
-
