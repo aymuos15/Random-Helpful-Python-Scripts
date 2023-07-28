@@ -1,0 +1,11 @@
+w0 = len(image_datasets['train'])/Counter(train_classes)[0]
+print(w0)
+
+w1 = len(image_datasets['train'])/Counter(train_classes)[1]
+print(w1)
+
+weights_for_class_imbalance = weights_for_class_imbalance.to(device)
+
+criterion = nn.CrossEntropyLoss(weight=weights_for_class_imbalance)
+
+Thank you @nsnicharee
